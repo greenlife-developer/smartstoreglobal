@@ -356,15 +356,30 @@ const Home = () => {
 
       <section class="pricing">
         <h2>Pricing</h2>
+        <h2>Get N4,500.00 Discount</h2>
         <p class="price">
-          Buy One for <span class="offer">15,500</span>
+          Buy One for <span class="offer">N15,500.00</span>{" "}
+          <span>
+            (<s>N20,000.00</s>)
+          </span>
         </p>
         <p class="price">
-          Buy Two for <span class="offer">30,000</span>
+          Buy Two for <span class="offer">N30,000.00</span>{" "}
+          <span>
+            (<s>N40,000.00</s>)
+          </span>
         </p>
         <p class="price">
-          Buy Three for <span class="offer">45,000</span>
+          Buy Three for <span class="offer">N45,000.00</span>{" "}
+          <span>
+            (<s>N60,000.00</s>)
+          </span>
         </p>
+        <span>
+          Don't wait until you are totally despised and humiliated in your
+          relationship as a result of your lack of adequate sexual performance
+          before you take action. Order for this now, we have limited pieces.
+        </span>
         <Cta />
       </section>
 
@@ -374,16 +389,18 @@ const Home = () => {
           PLEASE, WE ASK THAT YOU SHOULD NOT ORDER THIS PRODUCT IF YOU WILL NOT
           BE AVAILABLE TO RECEIVE IT OR IF THE MONEY IS NOT AT HAND. PLACE ORDER
           ONLY WHEN YOU ARE FULLY EQUIPPED TO RECEIVE; THANKS...
-        </p><br /><br />
+        </p>
+        <br />
+        <br />
         <p>
           Kindly Don’t Place An Order If You Would Be Traveling Soon, Or You Are
           Not Financially Ready To Receive The Order In 2 – 5 Days... We Spend A
           Lot Of Money & Time Shipping These Items To Different Locations Here
-          In Ghana And We Don’t Want A Situation Where Your Order Arrives At
+          In Nigeria And We Don’t Want A Situation Where Your Order Arrives At
           Your Location & You Are Not Available For Pickup. Because Such
           Situations Have Caused Us Great Losses Lately. For more inquiries and
           questions of any kind, feel free to contact us and our customer team
-          will respond within 24hrs. You can reach us on:
+          will respond as soon as possible. You can reach us on:
         </p>
       </section>
 
@@ -391,7 +408,11 @@ const Home = () => {
         <h2>Contact Us</h2>
         <p>For inquiries and orders, please contact us at:</p>
         <p>
-          <strong>Phone:</strong> <h2> <a href="tel:+2348064826172">+2348064826172</a></h2>
+          <strong>Phone:</strong>{" "}
+          <h2>
+            {" "}
+            <a href="tel:+2348064826172">+2348064826172</a>
+          </h2>
         </p>
       </section>
 
